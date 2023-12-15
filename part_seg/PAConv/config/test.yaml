@@ -1,0 +1,19 @@
+MODEL:
+  num_matrices: [8, 8, 8, 8]
+  k_neighbors: 30
+  calc_scores: softmax
+  hidden: [[16,16,16],[16,16,16],[16,16,16],[16,16,16]]
+
+TEST:
+  exp_name: DHGCN_test
+  num_points: 2048
+  test_batch_size: 16
+  workers: 6
+  no_cuda: False
+  eval: True
+  dropout: 0.4
+  model_name: DHGCN_train
+  model_type: insiou  # choose to test the best insiou/clsiou/acc model
+  split_num: 5
+  sigma2: 1.0
+  vis_dir: None
