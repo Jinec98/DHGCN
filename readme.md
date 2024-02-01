@@ -12,8 +12,8 @@ This is the source code for the implementation of our **DHGCN** for point cloud 
 
 #### Highlight
 <img src="./figure/motivation.png" alt="img" style="zoom:25%;" />
->Ours: Constructing the ground truth graph for our self-supervised hop distance reconstruction task. (a): Voxelizing the point cloud into parts, taking each part as a graph node. (b): The topology of the ground truth graph. Two nodes are adjacent if their scaled bounding boxes are intersected. (c): The shortest path between a node (enlarged red point) and other nodes. The number on each node denotes the hop distance which motivates our self-supervised task.
 
+>Ours: Constructing the ground truth graph for our self-supervised hop distance reconstruction task. (a): Voxelizing the point cloud into parts, taking each part as a graph node. (b): The topology of the ground truth graph. Two nodes are adjacent if their scaled bounding boxes are intersected. (c): The shortest path between a node (enlarged red point) and other nodes. The number on each node denotes the hop distance which motivates our self-supervised task.
 >Others: Sampling and grouping based strategy. (d): Sampling center points and grouping local point sets. (e): Constructing a local graph for each point set. We explore the contextual relationships between parts, while previous strategies focus on extracting local features of point sets.
 
 #### Network
