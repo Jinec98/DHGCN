@@ -115,10 +115,13 @@ Please refer to the directory of each task for the usage details of our code.
 If you find our work useful, please consider citing:
 
 ```
-@article{jiang2024dhgcn,
+@inproceedings{jiang2024dhgcn,
   title={DHGCN: Dynamic Hop Graph Convolution Network for Self-Supervised Point Cloud Learning},
   author={Jiang, Jincen and Zhao, Lizhi and Lu, Xuequan and Hu, Wei and Razzak, Imran and Wang, Meili},
-  journal={arXiv preprint arXiv:2401.02610},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={38},
+  number={11},
+  pages={12883-12891},
   year={2024}
 }
 ```
